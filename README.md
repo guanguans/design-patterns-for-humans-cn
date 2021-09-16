@@ -6,7 +6,7 @@
 
 * * *
 
-[![Build Status](https://travis-ci.org/guanguans/design-patterns-for-humans-cn.svg?branch=master)](https://travis-ci.org/guanguans/design-patterns-for-humans-cn)
+[![lint markdown](https://github.com/guanguans/design-patterns-for-humans-cn/actions/workflows/lint-md.yml/badge.svg)](https://github.com/guanguans/design-patterns-for-humans-cn/actions/workflows/lint-md.yml)
 
 ## 目录
 
