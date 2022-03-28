@@ -1,9 +1,7 @@
 ![](https://cloud.githubusercontent.com/assets/11269635/23065273/1b7e5938-f515-11e6-8dd3-d0d58de6bb9a.png)
 
 * * *
-
-设计模式超简单的解释！(本项目从 [design-patterns-for-humans](https://github.com/kamranahmedse/design-patterns-for-humans) fork)
-
+设计模式超简单的解释(本项目是 [`design-patterns-for-humans`](https://github.com/kamranahmedse/design-patterns-for-humans) 的中文翻译版)。配合 [`design-patterns-php`](https://github.com/guanguans/design-patterns-php)、[`设计模式 45 种`](https://github.com/guanguans/notes/blob/master/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%EF%BC%8845%E7%A7%8D%EF%BC%89.md) 阅读体验更佳。
 * * *
 
 [![lint markdown](https://github.com/guanguans/design-patterns-for-humans-cn/actions/workflows/lint-md.yml/badge.svg)](https://github.com/guanguans/design-patterns-for-humans-cn/actions/workflows/lint-md.yml)
