@@ -489,10 +489,10 @@ class BurgerBuilder
 
 ```php
 $burger = (new BurgerBuilder(14))
-                    ->addPepperoni()
-                    ->addLettuce()
-                    ->addTomato()
-                    ->build();
+    ->addPepperoni()
+    ->addLettuce()
+    ->addTomato()
+    ->build();
 ```
 
 **什么时候使用？**
