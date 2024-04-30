@@ -1,15 +1,31 @@
 {
     "excludeFiles": [
-        "src/",
-        "tests/",
-        "vendor/"
+        "./.build/**",
+        "./.github/**",
+        "./node_modules/**",
+        "./vendor/**",
+        "./vendor-bin/**"
     ],
     "rules": {
-        "no-empty-code": 1,
+        "space-around-alphabet": 2,
+        "space-around-number": 2,
+        "no-empty-code-lang": 2,
+        "no-empty-url": 2,
+        "no-empty-list": 2,
+        "no-empty-code": 2,
+        "no-empty-inline-code": 2,
+        "no-empty-blockquote": 2,
+        "no-special-characters": 2,
+        "use-standard-ellipsis": 2,
+        "no-fullwidth-number": 2,
+        "no-space-in-link": 2,
+        "no-multiple-space-blockquote": 2,
+        "correct-title-trailing-punctuation": 2,
+        "no-space-in-inline-code": 2,
         "no-long-code": [
             2,
             {
-                "length": 256,
+                "length": 120,
                 "exclude": [
                     "dot"
                 ]

@@ -12,18 +12,14 @@ jobs:
       - name: Set node version
         uses: actions/setup-node@v4
 
-      - name: Install dependencies
-        run: npm install
+      - name: Install lint-md
+        run: npm install @lint-md/cli -g
+
+      - name: Install zhlint
+        run: npm install zhlint -g
 
       - name: Lint markdown
-        run: npm run md-fix
+        run: lint-md 'README.md' --config=.lintmdrc --threads
 
-      - name: Lint zh_CN
-        run: npm run zh-fix
-
-      - name: Commit changes
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_options: '--no-verify'
-          commit_message: Fix markdown
-          file_pattern: '*.md */*.md */*/*.md'
+#      - name: Lint zh_CN
+#        run: zhlint 'README.md' --config=.zhlintrc

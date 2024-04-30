@@ -1,0 +1,7 @@
+{
+    "preset": "default",
+    "rules": {
+        "noSinglePair": false,
+        "noSpaceBetweenFullwidthContent": false
+    }
+}
